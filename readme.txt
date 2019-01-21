@@ -6,8 +6,8 @@ DESCRIPTION:
                         The algorithm used to find the shortest path from source to destination is uniform cost search. Uniform cost search finds the shortest path by adding the minimum metrics needed to reach a goal. 
 
 STRUCTURE OF THE CODE:
-     1. Class PriorityQueue: The PriorityQueue data structure is used. Here def _put does Heappush (inserts elements in queue) and def _get does heappop pops elements          from queue.
-     2. Create_graph function reads the input1.txt file and variables s,d,cost stores the value of the distance/cost from cityA to City B .
+     1. Class PriorityQueue: The PriorityQueue data structure is used. Here def _put does Heappush (inserts elements in queue) and     def _get does heappop pops elements from queue.
+     2. Create_graph function reads the input1.txt file and variables s,d,cost stores the value of the distance/cost from cityA to    City B .
                    For ex: 
                    Luebeck Hamburb 63 
                    Hamberb Bremen 116 .....
